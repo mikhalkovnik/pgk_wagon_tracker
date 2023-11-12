@@ -1,0 +1,34 @@
+{
+  "name": "pgk-wagon",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "postinstall": "shx cp -r node_modules/@types/plotly.js node_modules/@types/plotly.js-dist"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/cytoscape": "^3.19.15",
+    "@types/node": "^18.17.5",
+    "@types/plotly.js": "^2.12.20",
+    "esbuild": "^0.14.54",
+    "postcss": "^8.4.28",
+    "shx": "^0.3.4",
+    "solid-start-node": "^0.3.10",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.1",
+    "@solidjs/router": "^0.8.3",
+    "cytoscape": "^3.27.0",
+    "maplibre-gl": "^3.6.0",
+    "ol": "^8.1.0",
+    "plotly.js-dist": "^2.24.3",
+    "solid-js": "^1.8.5",
+    "solid-start": "^0.3.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
